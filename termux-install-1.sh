@@ -1,5 +1,6 @@
 #!/bin/sh
 
+RED='\033[0;31m'
 pkg i -y git
 pkg i -y nodejs
 mkdir hemnid
@@ -11,3 +12,4 @@ npm run build
 sh config.sh
 pkg i -y cronie
 pkg i -y termux-services
+echo "${RED}RESTART APP!!!"
