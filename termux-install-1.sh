@@ -12,4 +12,4 @@ npm run build
 sh config.sh
 pkg i -y cronie
 pkg i -y termux-services
-echo "${RED}RESTART APP!!!"
+echo "${RED}RESTART APP\!\!\!"
